@@ -1,1 +1,35 @@
 venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ignore all logs and temporary file if any 
+
+*.log
+*.tmp
+*.swp
+
+# Ignore dataset files (since they can be large)
+data/
+*.csv
+*.zip
+
+# Ignore built or compiled models (if you want to regenerate them instead)
+*.pkl
+*.h5
+
+# Ignore environment and dependency files
+.env
+*.env
+
+
+# Ignore Docker-related files (optional, if you don’t want them in Git)
+deployment/__pycache__/
+
+# Ignore API cache
+api/__pycache__/
+
+# Ignore test cache
+tests/__pycache__/
